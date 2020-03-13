@@ -1,3 +1,15 @@
+-- Gar-I AI
+-- Very simple AI that eats food to survive, and runs around an obstacle course trying to not starve.
+-- To use:
+-- 1. Clone this script into server script service
+-- 2. Create a modulescript as a child of this script, named "Brain"
+-- 3. Clone Brain.lua's code into the ModuleScript
+-- 4. Create a new part inside ServerStorage named "Gary"
+-- 5. Create a new part inside ServerStorage named "food" (lowercase)
+-- 6. Create walls inside your workspace named "dead" (lowercase)
+-- 7. Create a goal inside your workspace named "goal" (lowercase)
+
+
 garyModule = require(script.Brain) -- PLACE MODULESCRIPT INSIDE THIS NAMED "BRAIN"
 
 generationSize = 6
